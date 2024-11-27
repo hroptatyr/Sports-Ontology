@@ -589,7 +589,6 @@ Use Dublin Core for dates.
 </sport:Discipline>
 
 <sport:Discipline rdf:about="http://purl.org/sport/ontology/Freestyle100m">
-	<sport:Sport rdf:about="http://purl.org/sport/ontology/Swimming"/>
 </sport:Discipline>
 
 
