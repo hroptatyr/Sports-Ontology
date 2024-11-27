@@ -299,9 +299,9 @@
 	<rdfs:range> 
 		<owl:Class> 
 			<owl:unionOf rdf:parseType="Collection"> 
-				<owl:Class rdf:resource="http://purl.org/sport/ontology/SportsEvent"/>
+				<owl:Class rdf:about="http://purl.org/sport/ontology/SportsEvent"/>
 				<!-- Use an RDF collection (rdf:List) instead of an rdf:Seq container to state that an event consists only of the specified sub-events -->
-				<owl:Class rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/> 
+				<owl:Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/> 
 			</owl:unionOf> 
 		</owl:Class> 
 	</rdfs:range>
@@ -315,8 +315,8 @@
 	<rdfs:domain> 
 		<owl:Class> 
 			<owl:unionOf rdf:parseType="Collection"> 
-				<owl:Class rdf:resource="http://purl.org/sport/ontology/SportsEvent"/>
-				<owl:Class rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/> 
+				<owl:Class rdf:about="http://purl.org/sport/ontology/SportsEvent"/>
+				<owl:Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/> 
 			</owl:unionOf> 
 		</owl:Class> 
 	</rdfs:domain>
